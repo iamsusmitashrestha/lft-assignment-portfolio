@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 
 :root {
-    --primary: rgb(0, 152, 121);
-    --orange: rgb(255, 146, 72);
-    --purple: rgb(166, 76, 166);
-    --grey: rgb(243, 243, 243);
-    --white: #FFF;
-    --black: #000;
+  --primary: rgb(0, 152, 121);
+  --orange: rgb(255, 146, 72);
+  --purple: rgb(166, 76, 166);
+  --grey: rgb(243, 243, 243);
+  --white: #fff;
+  --black: #000;
 }
 
 * {
@@ -22,9 +22,9 @@ body {
 }
 
 body.dark {
-    --grey: rgb(100, 100, 100);
-    --white: #000;
-    --black: #FFF;
+  --grey: rgb(100, 100, 100);
+  --white: #000;
+  --black: #fff;
 }
 
 .full-width-container {
@@ -41,10 +41,10 @@ header {
   margin-bottom: 40px;
 }
 
-@media(max-width:760px){
-    header{
-        margin-bottom: 0px;
-    }
+@media (max-width: 760px) {
+  header {
+    margin-bottom: 0px;
+  }
 }
 
 .card {
@@ -78,8 +78,8 @@ th {
   color: var(--white);
 }
 
-.text-center{
-    text-align: center;
+.text-center {
+  text-align: center;
 }
 
 button {
@@ -91,9 +91,9 @@ button {
   font-weight: 600;
 }
 
-button:disabled{
-    opacity: 0.5;
-    cursor: not-allowed;
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 
 .demo-btn {
